@@ -1,0 +1,82 @@
+/* ======================== Media Query - Max Width: 768px Area ======================== */
+
+@media all and (max-width: 768px) {
+	.logo {
+		width: 100%;
+		text-align: center;
+	}
+	.logo img {
+		margin: 0 0 30px;
+	}
+	.header .uk-main-menu {
+		text-align: center;
+	}
+	.header .uk-grid {
+		position: inherit;
+	}
+	.services-item, 
+	.team .team-item, 
+	.skills-item {
+		margin: 0;
+	}
+	.services-item .content-item, 
+	.team-item .content-item, 
+	.skills-item .content-item, 
+	.portfolio .content-item {
+		margin: 85px 0 0;
+	}
+	.portfolio .portfolio-menu ul {
+		margin: 25px 0 0;
+	}
+	.get-touch .uk-container {
+		width: 75%;
+	}
+	.get-touch form input[type="email"] {
+		margin: 15px 0 0;
+	}
+	.get-touch textarea {
+		margin: 15px 0 0;
+	}
+	.footer ul li {
+		margin: 10px 0;
+	}
+}
+
+/* ===================== Media Query - Max Width: 768px Area Ends ====================== */
+
+/* ======================== Media Query - Max Width: 600px Area ======================== */
+
+@media all and (max-width: 600px) {
+	.header .uk-container {
+		width: 98%;
+	}
+	.header .uk-main-menu ul li {
+		display: block;
+		text-align: left;
+		margin: 0 auto;
+	}
+	.header .uk-main-menu ul li a {
+		padding: 10px 13px;
+	}
+	.header .uk-main-menu ul li:hover {
+		background: #643a79;
+	}
+	.btn a {
+		padding: 12px 36px 10px;
+		border-bottom: 3px solid #c86a40;
+	}
+	.portfolio-menu ul li {
+		margin: 20px 0 0;
+	}
+	.client-thumb {
+		width: 70px;
+	}
+	.get-touch .uk-container {
+		width: 98%;
+	}
+	.get-touch .btn button {
+		padding: 12px 36px 10px;
+	}
+}
+
+/* ===================== Media Query - Max Width: 600px Area Ends ====================== */

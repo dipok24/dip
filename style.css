@@ -1,0 +1,522 @@
+/* ======================================================================================
+======================================================================
+
+	Theme Name: Cuda Single Page Portfolio - One Page Template
+    Description: One Page Template
+    Author: softtech-it (institute)
+    Version: 1.0
+
+=========================================================================================
+======================================================================
+
+	[Table of contents]
+	===================
+
+	1. Typography
+		1.1 Font Links
+	2. Header Area
+		2.1 Logo
+		2.2 UK-Main-Menu
+		2.3 Header content
+	3. Services Area
+		3.1 Section Header
+		3.2 Services Item
+		3.3 Content Item
+	4. Team Area
+		4.1 Team Header
+		4.2 Team Item
+		4.3 Content Item
+	5. Skills Area
+		5.1 Skills Header
+		5.2 Skills Item
+		5.3 Content Item
+	6. Portfolio Area
+		6.1 Portfolio Header
+		6.2 Portfolio Item
+		6.3 Content Item
+	7. About-Us Area
+		7.1 About Header
+		7.2 Testimonials
+		7.3 Content Item
+	8. Get-Touch Area
+		8.1 Get Header
+		8.2 Contect-Form
+		8.3 Form-Group
+	9. Footer Area
+		9.1 Social-Links
+
+=========================================================================================
+====================================================================== */
+
+/* ================================== 1. Typography ================================== */
+
+/*
+==================
+	font links
+==================
+*/
+@font-face {
+	font-family: 'TitilliumWeb-Light';
+	src: url("fonts/titillium/TitilliumWeb-Light.woff") format('woff');
+}
+@font-face {
+	font-family: 'TitilliumWeb-Italic';
+	src: url("fonts/titillium/TitilliumWeb-Italic.woff") format('woff');
+}
+@font-face {
+	font-family: 'TitilliumWeb-Semibold';
+	src: url("fonts/titillium/TitilliumWeb-Semibold.woff") format('woff');
+}
+@font-face {
+	font-family: 'TitilliumWeb-Bold';
+	src: url("fonts/titillium/TitilliumWeb-Bold.woff") format('woff');
+}
+@font-face {
+	font-family: 'TitilliumWeb-Regular';
+	src: url("fonts/titillium/TitilliumWeb-Regular.woff") format('woff');
+}
+body {
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 16px;
+}
+a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 38px;
+	color: #FFFFFF;
+}
+h2 {
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 36px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+h4 {
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+p {
+	color: #FFFFFF;
+	margin: 12px 0;
+}
+
+/* ================================= 2. Header Area ================================== */
+
+.header .uk-grid {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #87509C;
+	z-index: 9999;
+}
+.header {
+	padding: 55px 0;
+	background-color: #87509c;
+}
+.header .uk-container {
+	width: 75%;
+}
+.logo {
+	text-align: left;
+}
+.logo img {
+	width: 105px;
+}
+.header .uk-main-menu {
+	text-align: right;
+}
+.header .uk-main-men ul {
+	margin: 7px 0 0;
+}
+.header .uk-main-menu ul li {
+	display: inline-block;
+	border-radius: 3px;
+	transition: .5s;
+}
+.header .uk-main-menu ul li a {
+	display: block;
+	padding: 6px 13px 7px;
+	font-size: 14px;
+	letter-spacing: .6px;
+}
+.header .uk-main-menu ul li a:hover {
+	color: #FFFFFF;
+}
+.header .uk-main-menu ul li:hover {
+	text-decoration: none;
+	background-color: #643a79;
+}
+.header .uk-active {
+	background-color: #643a79;
+}
+.header-content {
+	margin: 125px 0 90px;
+	text-align: center;
+}
+.header-content h1 {
+	margin: 0 0 60px;
+}
+.btn a {
+	font-family: 'TitilliumWeb-Semibold';
+	padding: 15px 50px 13px;
+	border-bottom: 3px solid #c86a40;
+	border-radius: 3px;
+	transition: .5s;
+	background-color: #eb7d4b;
+}
+.btn a:hover {
+	border-bottom: 3px solid #eb7d4b;
+	background-color: #FFFFFF;
+	color: #eb7d4b;
+}
+
+/* ================================= 3. Services Area ================================ */
+
+.services {
+	padding: 100px 0;
+	text-align: center;
+	background-color: #17c2a4;
+}
+.services-item {
+	margin: 75px 10px 0;
+}
+hr {
+	width: 80px;
+	margin: 0 auto 5px;
+	border: 2px solid #14a58c;
+}
+
+/* ================================== 4. Team Area =================================== */
+
+.team {
+	padding: 100px 0;
+	text-align: center;
+	background-color: #e7f1f8;
+}
+.team img {
+	width: 180px;
+	height: auto;
+}
+.team h2, 
+.team h4, 
+.team p {
+	color: #3c4761;
+}
+.team h4 {
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 22px;
+	margin: 30px 0 0;
+}
+.team h5 {
+	margin: 8px 0 17px;
+	color: #30bae7;
+}
+.team hr {
+	border-color: #c8d9e5;
+}
+.team .team-item {
+	margin: 70px 0 0;
+}
+.team .social {
+	margin: 26px 0 0;
+}
+.list-inline {
+	padding: 0 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	margin: 0 2px;
+}
+.team .social ul li a i {
+	font-size: 13px;
+	width: 14px;
+	height: 14px;
+	padding: 8px;
+	border-radius: 50%;
+	text-align: center;
+	transition: .7s;
+	background-color: #bdd1df;
+}
+.team .social a:hover i {
+	background-color: #487FBC;
+	color: #FFFFFF;
+}
+.team-image {
+	overflow: hidden;
+	position: relative;
+	width: 180px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.item-hover {
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	border-radius: 50%;
+	transition: all ease 1s;
+}
+.item-hover h4 {
+	margin: 90px 0 -10px;
+	background-color: rgba(231, 241, 248, .3);
+	color: #FFFFFF;
+}
+.team-image:hover .item-hover {
+	right: 0%;
+	bottom: 0%;
+	opacity: 1;
+	cursor: pointer;
+}
+
+/* ================================= 5. Skills Area ================================== */
+
+.skills {
+	padding: 100px 0;
+	text-align: center;
+}
+.skills h2,  
+.skills p {
+	color: #3c4761;
+}
+.skills h3 {
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	color: #3c4761;
+}
+.skills hr {
+	border-color: #c8d9e5;
+}
+.skills-item h2 {
+	font-family: 'TitilliumWeb-Regular';
+}
+.skills-item {
+	margin: 50px 0 10px;
+}
+
+/* ================================ 6. Portfolio Area ================================ */
+
+.portfolio {
+	padding: 100px 0;
+	text-align: center;
+	background-color: #ffdd99;
+}
+.portfolio hr {
+	border-color: #e5c37f;
+}
+.portfolio .portfolio-item img {
+	width: 485px;
+	height: auto;
+}
+.portfolio .portfolio-item h4 {
+	font-size: 17px;
+	line-height: 3em;
+}
+.portfolio .content-item {
+	margin: 10px 0;
+}
+.portfolio h2,  
+.portfolio h4,  
+.portfolio p, 
+.portfolio a {
+	color: #3c4761;
+}
+.portfolio .portfolio-menu ul {
+	margin: 25px 0 55px;
+}
+.portfolio-menu ul .uk-active a {
+	background-color: #FFFFFF;
+}
+.portfolio-menu ul li {
+	padding: 0 2px;
+}
+.portfolio-menu ul li a {
+	padding: 3px 18px 4px;
+	border-radius: 2px;
+	transition: .7s;
+	background-color: #e5c37f;
+}
+.portfolio-menu ul li:hover a {
+	background-color: #FFFFFF;
+}
+.portfolio .btn {
+	margin: 40px 0 0;
+}
+.portfolio .btn a {
+	border-color: #14a58c;
+	background-color: #17c2a4;
+	color: #FFFFFF;
+}
+.portfolio .btn a:hover {
+	border-color: #17c2a4;
+	background-color: #FFFFFF;
+	color: #14a58c;
+}
+
+
+/* ================================= 7. About-Us Area ================================ */
+
+.about-us {
+	padding: 100px 0 0;
+	text-align: center;
+	background-color: #d74680;
+}
+.about-us hr {
+	border-color: #b73c6d;
+}
+.about-us h4 {
+	font-family: 'TitilliumWeb-Bold';
+}
+.about-us h5 {
+	color: #ffdd99;
+}
+.about-us .Testimonials {
+	margin: 50px 0 0;
+}
+.about-us .Testimonials .content-item p {
+	font-family: 'TitilliumWeb-Italic';
+	letter-spacing: 1px;
+}
+.about-us .Testimonials .content-item {
+	min-height: 235px;
+	text-align: left;
+}
+.about-us .client-thumb {
+	margin-top: 10px;
+}
+.about-us .content-item img {
+	width: 80px;
+	height: auto;
+	border-radius: 50%;
+}
+.about-us .Testimonials .content-item h4 {
+	font-size: 20px;
+	margin: 25px 0 -26px;
+}
+.uk-grid + .uk-grid, .uk-grid-margin, .uk-grid > * > .uk-panel + .uk-panel {
+    margin-top: 0px;
+}
+
+/* ================================ 8. Get-Touch Area ================================ */
+
+.get-touch {
+	padding: 100px 0;
+	text-align: center;
+	background-color: #3c5499;
+}
+.get-touch .uk-container {
+	width: 65%;
+}
+.get-touch hr {
+	border-color: #273a71;
+}
+.get-touch form input[type="text"],
+.get-touch form input[type="email"],
+.get-touch textarea {
+	width: 100%;
+	padding: 13px 20px;
+	border: none;
+	box-sizing: border-box;
+}
+.get-touch textarea {
+	margin: 25px 0;
+}
+.get-touch p {
+	letter-spacing: 0.3px;
+}
+.get-touch .form-control {
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 16px;
+	color: white;
+	border-radius: 4px;
+	border-color: #273a71;
+	background-color: #273a71;
+}
+
+/*
+=========================
+	Placeholder Color
+=========================
+*/
+
+.form-control::-moz-placeholder { /* firefox */
+    color: #ffffff;
+	opacity: 1;
+}
+.form-control::-o-placeholder { /* operemini */
+    color: #ffffff;
+	opacity: 1;
+}
+.form-control::-webkit-input-placeholder { /* safari, chorme */
+    color: #ffffff;
+	opacity: 1;
+}.form-control::-ms-input-placeholder { /* internet explorer */
+    color: #ffffff;
+	opacity: 1;
+}
+.get-touch .contect-form {
+	margin: 50px 0 0;
+}
+.get-touch .btn {
+	width: 100%;
+	margin: 50px 0 0;
+}
+.get-touch .btn button {
+	font-family: 'TitilliumWeb-Semibold';
+	padding: 14px 50px 12px;
+	text-transform: uppercase;
+	transition: all ease .5s;
+	border: 0;
+	border-bottom: 3px solid #299ec5;
+	border-radius: 3px;
+	color: #FFFFFF;
+	background-color: #30bae7;
+}
+.get-touch .btn button:hover {
+	border-bottom: 3px solid #30bae7;
+	color: #30bae7;
+	background-color: #FFFFFF;
+}
+.contect-form input[type="text"]:focus, 
+.contect-form input[type="email"]:focus, 
+.contect-form textarea:focus {
+	transition: all ease .5s;
+	background-color: rgba(39, 58, 113, .7);
+}
+
+/* ================================= 9. Footer Area ================================== */
+
+.footer {
+	padding: 45px 0 35px;
+	text-align: center;
+	border: 0;
+	border-top: 1px dashed #3c57a6;
+	background-color: #344b8e;
+}
+.footer a {
+	font-family: 'TitilliumWeb-Semibold';
+	font-size: 19px;
+	letter-spacing: 1px;
+	transition: .5s;
+	text-transform: capitalize;
+	margin: 0 14px;
+}
+.footer a:hover {
+	color: #30bae7;
+}
+
+/* ----------------------------------- Content Ends ---------------------------------- */
